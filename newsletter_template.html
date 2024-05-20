@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MookiMoo App Update</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            width: 80%;
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        .header {
+            background-color: #B2C58F;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+        .content {
+            padding: 20px;
+        }
+        .content h2 {
+            color: #333333;
+        }
+        .content p {
+            color: #666666;
+            line-height: 1.5;
+        }
+        .content .roadmap {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+        }
+        .content .roadmap h3 {
+            margin-top: 0;
+        }
+        .footer {
+            background-color: #eeeeee;
+            color: #999999;
+            text-align: center;
+            padding: 10px;
+        }
+        .subtext {
+            font-size: 14px;
+            color: #777777;
+        }
+        .button {
+            width: 20%;
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 5px;
+            font-size: 16px;
+            color: #ffffff;
+            background-color: #B2C58F;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            text-align: center;
+        }
+        .anon {
+            font-size: smaller;
+            color: #aaa
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>MookiMoo App Update</h1>
+    </div>
+    <div class="content">
+        <h2>Hello {{userName}},</h2>
+        <p>We are excited to bring you the latest updates to the MookiMoo app. Your feedback has been invaluable in helping us improve the app. Here are some of the new features and improvements in this update:</p>
+        <ul>
+            <li>Enhanced user interface for a smoother experience</li>
+            <p class="subtext">We revamped the UI to be more intuitive and user-friendly, so you can now Drag and drop items to re-order them.</p>
+            <li>Improved AI-driven summaries for better insights</li>
+            <li>Bug fixes and performance enhancements</li>
+        </ul>
+        <div class="roadmap">
+            <h3>What's Coming Up</h3>
+            <p>We are continuously working on new features and improvements. Here's a sneak peek at what's on our roadmap:</p>
+            <ul>
+                <li>Integration with other communication tools</li>
+                <p class="subtext">We have been working on more apps in the background, that will also feed in valuable information to the back end,
+                    and further enhance the summaries and reports.</p>
+                <li>Advanced Profile customization options</li>
+                <p class="subtext">We have a web front end for managing the children you are caring for,
+                    especially handy if you have multiple children. It will provide access to all the same
+                    features as the app, so managing the Choices etc might be easier on a web page. Plus allows you add and remove
+                    children from your App Profile</p>
+                <li>New modules ideas</li>
+                <p class="subtext">We have been looking into making a "Social Stories" section, much like the Schedule
+                    section, but allowing for more text on the screen so the user can read along to the child as they
+                    look at the images.</p>
+                <div>
+                    <p>What do you think of this idea? <span class="anon">All Voting is Anonymous</span></p>
+                    <a href="https://www.mookimoo.com/webform/vote?reason=Social Storys&vote=like" class="button">Like</a>
+                    <a href="https://www.mookimoo.com/webform/vote?reason=Social Storys&vote=neutral" class="button">Neutral</a>
+                    <a href="https://www.mookimoo.com/webform/vote?reason=Social Storys&vote=dislike" class="button">Not Needed</a>
+                </div>
+            </ul>
+        </div>
+        <p>Thank you for your continued support and feedback. Together, we are making MookiMoo better every day.</p>
+        <p>Best regards,<br>The MookiMoo Team</p>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 MookiMoo. All rights reserved.</p>
+        <p>Questions? Visit our <a href="https://www.mookimoo.com">site</a>.</p>
+    </div>
+</div>
+</body>
+</html>
